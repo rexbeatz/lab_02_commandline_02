@@ -18,7 +18,8 @@ $ echo hello
 
 Copy and paste the output below.
 ----------
-
+ent-v314-008:/ student$ echo hello
+hello
 
 
 ==========
@@ -28,7 +29,8 @@ $ echo hello there
 
 Copy and paste the output below.
 ----------
-
+ent-v314-008:~ student$ echo hello there
+hello there
 
 
 ==========
@@ -38,6 +40,8 @@ $ echo good mornin'
 
 Copy and paste the output below.
 ----------
+ent-v314-008:~ student$ echo good mornin'
+> 
 
 
 
@@ -46,7 +50,7 @@ Copy and paste the output below.
 
 Type [CTRL + C] to get your prompt back.
 ----------
-
+ent-v314-008:~ student$ 
 
 
 ==========
@@ -56,7 +60,8 @@ $ echo "good mornin'"
 
 Copy and paste the output below.
 ----------
-
+ent-v314-008:~ student$ echo "good mornin'"
+good mornin'
 
 
 ==========
@@ -66,6 +71,8 @@ $ echo *
 
 What happens?
 ----------
+ent-v314-008:~ student$ echo *
+AMALogger20190109.log AMALogger20190130.log Adlm Adobe Applications Desktop Documents Downloads Library MAXX-MTEC1003 MPLABXProjects Movies Music New Unity Project Pictures Public QLData Things bacon ipe.properties isus mtec1002 pizza pymel.log xgen
 
 
 
@@ -74,7 +81,7 @@ What happens?
 
 Write the command that you used below:
 ----------
-
+clear
 
 
 ==========
@@ -87,7 +94,13 @@ $ curl google.com
 
 Copy and paste the output below.
 ----------
-
+ent-v314-008:~ student$ curl google.com
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.google.com/">here</A>.
+</BODY></HTML>
 
 
 ==========
@@ -97,7 +110,9 @@ $ curl www.google.com
 
 Copy and paste the output below, but not the whole thing!  Just copy up to the part that has the title tags (<title>......</title>).
 ----------
-
+ent-v314-008:~ student$ curl google.com
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE>
 
 
 ==========
@@ -105,7 +120,10 @@ Copy and paste the output below, but not the whole thing!  Just copy up to the p
 
 Write the command you used below.  Also copy and paste the output below.
 ----------
-
+ent-v314-008:~ student$ curl -o google.html www.google.com
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 12231    0 12231    0     0   131k      0 --:--:-- --:--:-- --:--:--  131k
 
 
 ==========
@@ -113,7 +131,8 @@ Write the command you used below.  Also copy and paste the output below.
 
 Write the command you used to determine your directory.  Also, copy and paste the output below.
 ----------
-
+ent-v314-008:~ student$ pwd
+/Users/student
 
 
 ==========
@@ -121,7 +140,8 @@ Write the command you used to determine your directory.  Also, copy and paste th
 
 Write the command that you used to change to your home directory.  If you were already in your home directory, write the command that you *would* have used to change to it!
 ----------
-
+ent-v314-008:~ student$ pwd
+/Users/student
 
 
 ==========
